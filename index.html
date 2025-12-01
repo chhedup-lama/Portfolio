@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product & AI Product Leader – README</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+    h1, h2, h3, h4 {
+      font-weight: 700;
+      line-height: 1.3;
+      color: #f9fafb;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-top: 0;
+    }
+    h2 {
+      font-size: 1.6rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+    }
+    p {
+      margin: 0.4rem 0 0.6rem;
+    }
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin: 1rem 0 1.25rem;
+    }
+    .badges img {
+      height: 28px;
+    }
+    .badges.badges-small img {
+      height: 22px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+      background: rgba(15, 23, 42, 0.7);
+      border-radius: 0.75rem;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 0.75rem 0.85rem;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.35);
+      vertical-align: top;
+    }
+    th {
+      text-align: left;
+      font-weight: 600;
+      width: 26%;
+      background: rgba(15, 23, 42, 0.95);
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    ul {
+      margin: 0.4rem 0 0.8rem 1.3rem;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.35rem;
+    }
+    .section {
+      padding: 1.25rem 1.25rem 1.5rem;
+      margin: 1.25rem 0;
+      border-radius: 1rem;
+      background: radial-gradient(circle at top left, rgba(59,130,246,0.27), transparent 55%),
+                  radial-gradient(circle at bottom right, rgba(236,72,153,0.22), transparent 55%),
+                  rgba(15,23,42,0.9);
+      border: 1px solid rgba(148,163,184,0.35);
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.7);
+    }
+    .section h2, .section h3 {
+      margin-top: 0.25rem;
+    }
+    .projects-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+    .project {
+      padding: 0.8rem 0.9rem;
+      border-radius: 0.75rem;
+      background: rgba(15,23,42,0.8);
+      border: 1px solid rgba(148,163,184,0.3);
+    }
+    .project-title {
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .education-item {
+      margin-bottom: 0.35rem;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.25rem 0.7rem;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.5);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-right: 0.4rem;
+      margin-top: 0.3rem;
+      background: rgba(15,23,42,0.8);
+    }
+    .intro {
+      margin-bottom: 1rem;
+    }
+    .hero-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .hero-title {
+      font-size: 2.2rem;
+      margin-bottom: 0.1rem;
+    }
+    .hero-subtitle {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      max-width: 520px;
+    }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 640px) {
+      .page {
+        padding: 1.5rem 1.1rem 2.5rem;
+      }
+      table, th, td {
+        font-size: 0.9rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      h2 {
+        font-size: 1.35rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="section intro">
+      <div class="hero-header">
+        <div>
+          <h1 class="hero-title">👋 Product &amp; AI Product Leader</h1>
+          <p>
+            Over 15 years building and scaling products across e-commerce, managed marketplaces, consumer goods,
+            AI, and FinTech. I design and ship AI-native platforms, multi-agent systems, and digital products that
+            move real metrics across profitability, growth, and customer experience. I operate end-to-end: from
+            strategy and discovery to launch, scale, and continuous optimization.
+          </p>
+        </div>
+      </div>
+      <div class="badges">
+        <img src="https://img.shields.io/badge/Product_Leadership-%23FF6F00?style=for-the-badge" alt="Product Leadership badge" />
+        <img src="https://img.shields.io/badge/AI%2FGenAI-RAG_%26_Multi_Agents-%230089D6?style=for-the-badge" alt="AI/GenAI badge" />
+        <img src="https://img.shields.io/badge/E--commerce_%26_Marketplaces-%2300A86B?style=for-the-badge" alt="E-commerce & Marketplaces badge" />
+        <img src="https://img.shields.io/badge/FinTech-Credit_%26_Payments-%236F42C1?style=for-the-badge" alt="FinTech badge" />
+        <img src="https://img.shields.io/badge/Global-India_%E2%80%A2_Dublin-%2300555A?style=for-the-badge" alt="Global Experience badge" />
+        <img src="https://img.shields.io/badge/15%2B_Years-Product_%26_Strategy-%23212121?style=for-the-badge" alt="15+ Years badge" />
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>🚀 Snapshot / At a Glance</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>Experience</th>
+            <td>15+ years across product, strategy, engineering, and AI-driven platforms</td>
+          </tr>
+          <tr>
+            <th>Current Role</th>
+            <td>Director of Product, Fractal.ai (Dublin)</td>
+          </tr>
+          <tr>
+            <th>Domains</th>
+            <td>E-commerce, managed marketplaces, generative AI, retail, CPG, consumer finance, health</td>
+          </tr>
+          <tr>
+            <th>Product Types</th>
+            <td>SaaS platforms, B2C apps, marketplaces, credit-line products, payment ecosystems</td>
+          </tr>
+          <tr>
+            <th>AI Focus</th>
+            <td>RAG, multi-agent architectures, co-pilots, forecasting agents, simulators, optimizers</td>
+          </tr>
+          <tr>
+            <th>Leadership Scope</th>
+            <td>Product strategy, GTM, P&amp;L, experimentation, cross-functional execution, PLG</td>
+          </tr>
+          <tr>
+            <th>Geographies</th>
+            <td>India and Europe (Dublin)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>🧠 Skills &amp; Focus Areas</h2>
+
+      <h3>🎯 Product &amp; Strategy</h3>
+      <ul>
+        <li>End-to-end product ownership: discovery → strategy → launch → scale</li>
+        <li>P&amp;L ownership, pricing, GTM, and growth for B2C, SaaS, and marketplace products</li>
+        <li>Product-led growth, experimentation, and data-driven decision-making</li>
+        <li>Building from zero-to-one: new platforms, marketplaces, and engagement models</li>
+      </ul>
+      <div class="badges badges-small">
+        <img src="https://img.shields.io/badge/Product_Strategy-%23FF6F00?style=flat-square" alt="Product Strategy" />
+        <img src="https://img.shields.io/badge/GTM_%26_P%26L-%2300A86B?style=flat-square" alt="GTM & P&amp;L" />
+        <img src="https://img.shields.io/badge/Marketplaces-%23E67E22?style=flat-square" alt="Marketplaces" />
+        <img src="https://img.shields.io/badge/Product--Led_Growth-%234285F4?style=flat-square" alt="Product-led Growth" />
+      </div>
+
+      <h3>🤖 AI / GenAI &amp; Data</h3>
+      <ul>
+        <li>Multi-agent AI platforms using TaskWeaver for structured/unstructured data, BI, and enterprise systems</li>
+        <li>LLM-powered co-pilots, reasoning agents, simulators, and decision automation systems</li>
+        <li>Multi-LLM orchestration for chat, image, and PPT generation with observability and feedback loops</li>
+        <li>AI avatar platforms with context memory, guardrails, predictive suggestions, and speech/video generation</li>
+        <li>Application of RAG, forecasting, and optimization for profitability, iROAS, and stock efficiency</li>
+      </ul>
+      <div class="badges badges-small">
+        <img src="https://img.shields.io/badge/TaskWeaver-%230089D6?style=flat-square" alt="TaskWeaver" />
+        <img src="https://img.shields.io/badge/LangChain-%2300B894?style=flat-square" alt="LangChain" />
+        <img src="https://img.shields.io/badge/OpenAI_Automations-%234285F4?style=flat-square" alt="OpenAI Automations" />
+        <img src="https://img.shields.io/badge/SQL-%23007ACC?style=flat-square" alt="SQL" />
+        <img src="https://img.shields.io/badge/Tableau-%23E97627?style=flat-square" alt="Tableau" />
+        <img src="https://img.shields.io/badge/SPSS-%234A86CF?style=flat-square" alt="SPSS" />
+        <img src="https://img.shields.io/badge/Minitab-%2334A853?style=flat-square" alt="Minitab" />
+        <img src="https://img.shields.io/badge/Mixpanel-%235351FB?style=flat-square" alt="Mixpanel" />
+      </div>
+
+      <h3>🧩 Leadership &amp; Execution</h3>
+      <ul>
+        <li>Leading cross-functional squads spanning Product, Engineering, Data/AI, Design, Marketing, Risk, and Operations</li>
+        <li>Building and scaling new functions (customer care, vendor operations, flexible work communities)</li>
+        <li>Driving operational excellence using Lean Six Sigma and structured workflows</li>
+        <li>Rapid POC execution with minimal developer dependency</li>
+      </ul>
+      <div class="badges badges-small">
+        <img src="https://img.shields.io/badge/Cross--Functional_Leadership-%236F42C1?style=flat-square" alt="Cross-functional leadership" />
+        <img src="https://img.shields.io/badge/Execution--Focused-%23212121?style=flat-square" alt="Execution-focused" />
+        <img src="https://img.shields.io/badge/Agile-Jira_%E2%80%A2_Confluence_%E2%80%A2_Asana-%23007ACC?style=flat-square" alt="Agile tools" />
+        <img src="https://img.shields.io/badge/Product_Design-Figma-%23F24E1E?style=flat-square" alt="Figma" />
+      </div>
+
+      <h3>🏭 Domains &amp; Business Models</h3>
+      <ul>
+        <li>E-commerce and managed marketplaces (B2C and B2B2C)</li>
+        <li>Retail and consumer goods (brands, marketplaces, logistics, quality control)</li>
+        <li>Consumer finance, credit lines, payments, and health-finance ecosystems</li>
+        <li>Flexible work communities, live commerce, and subscription-based engagement models</li>
+      </ul>
+      <div class="badges badges-small">
+        <img src="https://img.shields.io/badge/E--Commerce-%23E67E22?style=flat-square" alt="E-Commerce" />
+        <img src="https://img.shields.io/badge/FinTech-%236F42C1?style=flat-square" alt="FinTech" />
+        <img src="https://img.shields.io/badge/Health--Finance-%23FF6F00?style=flat-square" alt="Health-Finance" />
+        <img src="https://img.shields.io/badge/Subscriptions_%26_Live_Commerce-%2300A86B?style=flat-square" alt="Subscriptions & Live Commerce" />
+      </div>
+
+      <h3>🛠 Tools &amp; Technologies</h3>
+      <ul>
+        <li>Analytics &amp; experimentation: SQL, forecasting, modeling, Mixpanel, Minitab, SPSS, Tableau, Firebase, A/B testing</li>
+        <li>AI stack: TaskWeaver, LangChain, OpenAI Automations, multi-LLM orchestration</li>
+        <li>Product &amp; collaboration: JIRA, Confluence, Asana, Figma</li>
+        <li>Engineering foundation: .NET (C#, ASP.NET), JavaScript, XML, APIs, Microsoft SQL Server</li>
+      </ul>
+      <div class="badges badges-small">
+        <img src="https://img.shields.io/badge/.NET-%23512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
+        <img src="https://img.shields.io/badge/C%23-%23239120?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
+        <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Microsoft_SQL_Server-%23CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>💼 Experience Highlights</h2>
+
+      <h3>Director of Product · Fractal.ai · Dublin · May 2022 – Present</h3>
+      <ul>
+        <li>Led development of a multi-agent AI SaaS platform using TaskWeaver, integrating structured/unstructured data, BI systems, and enterprise apps to power co-pilots, alerting systems, and decision automations.</li>
+        <li>Built and scaled an AI-driven e-commerce product with co-pilots, forecasting agents, simulators, and optimizers, delivering <strong>2–4% profitability lift</strong>, <strong>50–150 bps CM improvement</strong>, <strong>20–35% stockout reduction</strong>, <strong>1–3% revenue uplift</strong>, and <strong>8–15% iROAS gains</strong>.</li>
+        <li>Built a SaaS AI solution with multi-LLM orchestration for chat and image/PPT generation, designed for extensibility and observability.</li>
+        <li>Delivered MarshallGoldsmith.ai, a B2C AI app using prompt management, feedback, and lifelike digital avatars (voice, tone, character, real-time video) aligned with Ethical AI principles.</li>
+        <li>Developed a payment-enabled B2C AI avatar platform with context memory, guardrails, predictive suggestions, citations, and continuous feedback/learning loops.</li>
+        <li>Drove rapid POCs with LangChain and OpenAI Automations, shaping agent architectures and product-led growth experiences with minimal developer dependency.</li>
+      </ul>
+
+      <h3>Co-Founder · buydarjeeling.com · India · Mar 2021 – May 2022</h3>
+      <ul>
+        <li>Built a full-stack marketplace platform integrating payments, OMS, logistics APIs, and vendor workflows; supported <strong>5K+ monthly sessions</strong> with <strong>95% delivery success</strong> through optimized UX and workflow automation.</li>
+        <li>Owned GTM, pricing, P&amp;L, and growth; used data-driven, multi-channel marketing to reduce <strong>CAC by 25–30%</strong> while improving conversion and profitability.</li>
+        <li>Implemented structured supply-chain workflows and SLAs, reducing order processing time by <strong>30–40%</strong> and improving on-time deliveries by <strong>20%</strong>.</li>
+        <li>Onboarded <strong>50+ sellers</strong>, enabling <strong>2–3× GMV growth</strong> via platform tools, analytics, and assisted onboarding.</li>
+      </ul>
+
+      <h3>Product Consultant · Live History India · India · Mar 2021 – Mar 2022</h3>
+      <ul>
+        <li>Built an e-commerce platform handling <strong>10K+ monthly users</strong> with <strong>95% fulfilment accuracy</strong>.</li>
+        <li>Launched a subscription-driven engagement model for live shows and history content, scaling to <strong>5,000+ subscribers</strong> within six months of MVP.</li>
+        <li>Created India’s first live commerce marketplace, enabling real-time artisan–customer interactions and driving <strong>3–4× engagement</strong> and <strong>20–25% higher conversions</strong> during live sessions.</li>
+      </ul>
+
+      <h3>DGM, Product · Indiabulls Consumer Finance · Aug 2019 – Mar 2021</h3>
+      <ul>
+        <li>Led the launch of a digital credit-line app allowing users to convert monthly transactions into instant loans linked to a physical payment card accepted at <strong>3M+ merchants</strong>, driving <strong>40%+ MoM</strong> card transaction growth.</li>
+        <li>Spearheaded the Dhani Doctor App during COVID-19, integrating teleconsultation, pharmacy, digital payments, and credit into a unified health-finance ecosystem, delivering real-time loan authorization (<strong>&lt;5 seconds</strong>) and flexible repayment, resulting in <strong>3× increase in daily consultations</strong>.</li>
+        <li>Built and scaled the payments module within the Dhani ecosystem (travel, recharges, gift cards, utilities, daily commerce), with loyalty and rewards frameworks that boosted <strong>DAUs by 25–30%</strong> and <strong>MAUs by ~40%</strong>.</li>
+      </ul>
+
+      <h3>Senior Product Manager · Lumina Datamatics · India · Oct 2017 – Aug 2019</h3>
+      <ul>
+        <li>Led the startup of India’s first on-demand flexible work community, owning product strategy, customer and seller research, GTM, activation, retention, vendor management, customer care setup, and digital marketing.</li>
+        <li>Spearheaded website and app development, collaborating with Marketing, Tech, QA, Legal, Risk, Leadership, and third-party vendors to launch and scale the platform.</li>
+      </ul>
+
+      <h3>Product Manager · Pepperfry.com · India · May 2016 – Sep 2017</h3>
+      <ul>
+        <li>Developed an internal CRM tool to replace Microsoft CRM, tailored to business workflows and improving operational efficiency across teams.</li>
+        <li>Built a custom Merchant Panel and QC module to streamline vendor management, order tracking, and product quality oversight, strengthening partner experience and reliability.</li>
+        <li>Led development of a Last-Mile Delivery Runner App for item scanning and tracking at merchant locations, improving delivery accuracy and reducing turnaround time.</li>
+      </ul>
+
+      <h3>Manager, Strategy · Sutherland Global Services · May 2013 – May 2016</h3>
+      <ul>
+        <li>Led strategic initiatives across Product Management, Financial Optimization, Six Sigma, and PMO as part of the APAC leadership team.</li>
+        <li>Partnered directly with the Country Head as part of the India Strategy &amp; Operations team, driving initiatives focused on financial performance and operational efficiency.</li>
+        <li>Ran cross-functional programs delivering measurable improvements in cost, quality, and productivity using Lean Six Sigma methodologies.</li>
+      </ul>
+
+      <h3>Software Engineer · Key Management Group · India · Jul 2007 – Jul 2010</h3>
+      <ul>
+        <li>Developed enterprise software solutions on the .NET stack (C#, ASP.NET), JavaScript, XML, APIs, and Microsoft SQL Server to support critical business operations.</li>
+        <li>Built and maintained systems for Vendor Management, POS, Transport Management, and Customer Management, enabling end-to-end operational automation and reliable data flow.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>📊 Signature Projects / Case Studies</h2>
+      <div class="projects-list">
+        <div class="project">
+          <div class="project-title">➤ <strong>Multi-Agent AI SaaS Platform (Fractal.ai)</strong></div>
+          <p>Designed and led a multi-agent AI platform using TaskWeaver to unify structured/unstructured data, BI, and enterprise apps, enabling co-pilots, alerting, and decision automation and becoming a core foundation for AI-native products across clients.</p>
+        </div>
+
+        <div class="project">
+          <div class="project-title">➤ <strong>AI-Driven E-commerce Optimization Product (Fractal.ai)</strong></div>
+          <p>Built an AI-driven product with co-pilots, forecasting agents, simulators, and optimizers; translated complex commercial trade-offs into intuitive workflows that delivered <strong>2–4% profitability lift</strong>, <strong>50–150 bps CM gains</strong>, <strong>20–35% fewer stockouts</strong>, <strong>1–3% revenue uplift</strong>, and <strong>8–15% iROAS improvement</strong> for brands.</p>
+        </div>
+
+        <div class="project">
+          <div class="project-title">➤ <strong>MarshallGoldsmith.ai – B2C AI Avatar App (Fractal.ai)</strong></div>
+          <p>Delivered a B2C AI app using prompt management, feedback, and lifelike digital avatars with authentic voice, tone, character, and real-time video, balancing user experience with Ethical AI guardrails for responsible engagement.</p>
+        </div>
+
+        <div class="project">
+          <div class="project-title">➤ <strong>Payment-Enabled AI Avatar Platform (Fractal.ai)</strong></div>
+          <p>Developed a payment-enabled avatar platform with context memory, guardrails, predictive suggestions, citations, and speech/video generation, creating a continuous feedback and learning loop for high-quality, monetizable AI interactions.</p>
+        </div>
+
+        <div class="project">
+          <div class="project-title">➤ <strong>buydarjeeling.com – Tea Marketplace (Founder)</strong></div>
+          <p>Co-founded and built a full-stack marketplace integrating payments, OMS, logistics, and vendor workflows, using data-driven growth and supply-chain optimization to achieve <strong>5K+ sessions</strong>, <strong>95% delivery success</strong>, <strong>25–30% CAC reduction</strong>, and <strong>2–3× GMV growth</strong>.</p>
+        </div>
+
+        <div class="project">
+          <div class="project-title">➤ <strong>Dhani Credit-line &amp; Health-Finance Ecosystem (Indiabulls)</strong></div>
+          <p>Launched a digital credit-line app and Dhani Doctor App with integrated teleconsultation, pharmacy, payments, and credit, delivering real-time loan decisions and flexible repayment, driving <strong>40%+ MoM</strong> card transaction growth and <strong>3× daily consultations</strong>.</p>
+        </div>
+
+        <div class="project">
+          <div class="project-title">➤ <strong>India’s First Live Commerce Marketplace (Live History India)</strong></div>
+          <p>Created a live commerce marketplace that connected artisans and customers in real time, pairing live content with transactions to drive <strong>3–4× engagement</strong> and <strong>20–25% higher conversions</strong> during live sessions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>🧭 Leadership &amp; Ways of Working</h2>
+      <ul>
+        <li>🧠 Operate as a full-stack product leader: blend strategy, data, UX, engineering, and GTM.</li>
+        <li>🤝 Collaborate closely with cross-functional teams (Tech, Data/AI, Marketing, Risk, Operations, Legal, QA, Leadership).</li>
+        <li>📈 Obsessed with measurable outcomes: profitability, iROAS, DAU/MAU, retention, fulfilment, and operational SLAs.</li>
+        <li>⚙️ Build systems and workflows (supply chain, payments, vendor tools, flexible work communities) that scale reliably.</li>
+        <li>🧪 Embrace experimentation and POCs, especially in AI/GenAI, to move fast with minimal developer dependency.</li>
+        <li>🎯 Focus on customer-centric design, simplifying complex AI and financial products into intuitive user journeys.</li>
+        <li>🔍 Apply structured problem-solving and Lean Six Sigma principles to reduce cost, improve quality, and drive productivity.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>🎓 Education</h2>
+      <p class="education-item">• B. Tech, Computer Engineering – Delhi College of Engineering, Delhi (2007)</p>
+      <p class="education-item">• MBA – Indian Institute of Management, Bangalore (2013)</p>
+    </section>
+
+    <section class="section">
+      <h2>📬 Let’s Connect</h2>
+      <p>
+        I love building AI-native products, marketplaces, and financial experiences that deliver tangible business outcomes
+        and better customer journeys. If you’re working on generative AI platforms, decision intelligence, or high-scale
+        e-commerce/FinTech products, I’m always open to a conversation.
+      </p>
+      <p>
+        Feel free to reach out via LinkedIn or email through your preferred channel.
+      </p>
+      <div style="margin-top:0.7rem;">
+        <span class="pill">💼 Open to conversations</span>
+        <span class="pill">🌍 India · Dublin</span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© Product &amp; AI Product Leader – HTML version of README.</p>
+    </footer>
+  </div>
+</body>
+</html>
